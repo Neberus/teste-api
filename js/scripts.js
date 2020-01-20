@@ -16,7 +16,7 @@ let mostrarNaTela = listaNoticias =>{
 
     listaNoticias.forEach(function(noticia, posicao){
 
-        let card = ` <div class="card text-center" style="width: 18rem;">
+        let card = ` <div class="card text-center m-5 col-md-3" style="width: 18rem;">
         <img class="card-img-top" src="${noticia.urlToImage}" alt="Card image cap">
         <div class="card-body">
             <h5 class="card-title">${noticia.title}</h5>
